@@ -50,7 +50,7 @@ if(WIN32)
   set_target_properties(quickjs PROPERTIES PREFIX "")
   target_link_libraries(quickjs -static-libstdc++ -static-libgcc pthread)
 else()
-  target_link_libraries(quickjs m dl pthread)
+  target_link_libraries(quickjs -static-libstdc++ m dl pthread)
 endif()
 
 set_target_properties(quickjs
