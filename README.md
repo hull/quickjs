@@ -49,4 +49,3 @@ Add the following to your POM's `<dependencies>` tag:
 License
 -------
 Licensed under the [Apache License](https://github.com/webfolderio/quickjs/blob/master/LICENSE).
-
